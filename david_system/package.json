@@ -1,0 +1,27 @@
+{
+  "name": "david_system",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "d3": "^4.13.0",
+    "d3-dsv": "^2.0.0",
+    "d3-format": "^2.0.0",
+    "d3-scale": "^3.2.3",
+    "d3v4": "^4.2.2",
+    "next": "10.0.9",
+    "prop-types": "^15.7.2",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-stockcharts": "^0.7.8",
+    "shortid": "^2.2.16",
+    "techan": "^0.8.0",
+    "techan-js": "^1.0.2"
+  }
+}
