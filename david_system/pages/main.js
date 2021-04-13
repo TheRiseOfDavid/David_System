@@ -36,11 +36,11 @@ const ChartComponent = () => {
     }
 
     return(
-        <Grid>
-             <Grid>
+        <Grid container style={{ height: '100vh' }}>
+             <Grid item xs={12} style={{ height: 'calc(100% - 30px)' }}>
                 <StockChart data={data} />
              </Grid>
-             <Grid>
+             <Grid item xs={12} style={{ height: '30px' }}>
                 <input type="file" onChange={(event) => setFile(event.target.files[0])} />
              </Grid>
         </Grid>
